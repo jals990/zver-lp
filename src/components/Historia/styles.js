@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import market from '../../media/market.jpeg';
+import market from '../../media/market.jpg';
 
 export const Container = styled.div`
   width: 100%;

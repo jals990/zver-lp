@@ -1,7 +1,7 @@
 import React from 'react';
 
 import logo from '../../media/logo.png';
-import globe from '../../media/globe.jpeg';
+import globe from '../../media/globe.jpg';
 import { Container } from './styles';
 
 function Header() {
