@@ -26,7 +26,7 @@ function Footer() {
           </li>
         </ul>
       </div>
-      <strong>Rua Vergueiro, 1421, Cj 413 Torre Sul. Paraíso. São paulo-SP. 04101-000.</strong>
+      <strong>Rua Vergueiro, 1421, Cj 413 Torre Sul. Paraíso. São Paulo-SP. 04101-000.</strong>
     </Container>
   )
 }
