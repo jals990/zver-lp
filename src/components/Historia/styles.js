@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import market from '../../media/market.jpg';
+
+import market from '../../media/multimercado.jpg';
 
 export const Container = styled.div`
   width: 100%;
@@ -8,7 +9,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--background);
+  background: var(--white);
   
   div{
     width: 45%;
@@ -18,7 +19,7 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: var(--white);
+    background: var(--background);
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
  
@@ -29,14 +30,17 @@ export const Container = styled.div`
       text-align: center;
       font-size: 3em;
       line-height: 1em;
-      color: var(--background);
+      color: var(--white);
+      margin-bottom: 30px;
     }
 
-    strong {
-      text-align: center;
-      margin-top: 50px;
+    p {
       line-height: 1.75em;
-      color: var(--background);
+      color: var(--white);
+    }
+
+    hr {
+      margin: 5px;
     }
 
   }
@@ -55,8 +59,8 @@ export const Container = styled.div`
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
 
-    width: 450px;
-    height: 450px;
+    width: 600px;
+    height: 600px;
     z-index: 3;
   }
 

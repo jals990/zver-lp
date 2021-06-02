@@ -11,7 +11,7 @@ export const Container = styled.div`
     display: flex;
     width: 100%;
     flex-direction: column;
-    padding: 0 100px;
+    padding: 0 80px;
     justify-content: center;
     color: var(--white);
     position: absolute;

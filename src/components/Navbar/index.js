@@ -10,12 +10,12 @@ function Navbar() {
     <Container>
       <img src={icone} alt="Zver Capital" />
         <Dropdown title="Menu">
-          <Dropdown.Item>Quem Somos</Dropdown.Item>
-          <Dropdown.Item>Produtos</Dropdown.Item>
-          <Dropdown.Item>Performance</Dropdown.Item>
-          <Dropdown.Item>Serviços Premium</Dropdown.Item>
-          <Dropdown.Item>Clientes</Dropdown.Item>
-          <Dropdown.Item>Contatos</Dropdown.Item>
+          <a href="#historia"><Dropdown.Item>Quem Somos</Dropdown.Item></a>
+          <a href="#atuacao"><Dropdown.Item>Onde atuamos</Dropdown.Item></a>
+          <a href="#trabalho"><Dropdown.Item>Como trabalhamos</Dropdown.Item></a>
+          <a href="#performance"><Dropdown.Item>Performance</Dropdown.Item></a>
+          <a href="#premium"><Dropdown.Item>Serviços Premium</Dropdown.Item></a>
+          <a href="#contato"><Dropdown.Item>Contatos</Dropdown.Item></a>
         </Dropdown>
     </Container>
   )

@@ -1,18 +1,24 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    width: 100%;
-    height: 60vh;
-    background: var(--background);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 75vh;
+    width: 100%;
+    background: var(--background);
+
+    > h3{
+      padding: 15px 50px !important;
+      margin: -80px 0 35px !important;
+    }
 
     ul{
       display: flex;
       justify-content: center;
       width: 100%;
       padding: 60px 0 100px;
-      margin-bottom: 30px;
 
       li {
         list-style: none;
@@ -31,6 +37,7 @@ export const Container = styled.div`
           display: flex;
           flex-direction: column;
           align-items: center;
+          margin-bottom: 30px;
         }
 
         img{

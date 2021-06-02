@@ -5,9 +5,17 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  height: 75vh;
-  margin-top: -75px;
-  margin-bottom: 45px;
+  height: 85vh;
+  width: 100%;
+  background: var(--text-body);
+
+  h3{
+    margin-top: -180px;
+  }
+
+  small {
+    margin: -180px 0 60px;
+  }
   
   div ul {
     display: flex;
@@ -38,11 +46,4 @@ export const Container = styled.div`
     }
   }
 
-  small {
-    margin: -100px 0 60px;
-  }
-
-  h4, p {
-    color: var(--dark);
-  }
 `;

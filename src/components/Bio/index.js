@@ -5,7 +5,8 @@ import icone from '../../media/icone.png';
 
 function Bio() {
   return (
-    <Container>
+    <Container id="trabalho">
+      <h3 className="divisor">Como trabalhamos</h3>
       <ul>
         <li>
           <div>
@@ -19,7 +20,7 @@ function Bio() {
             <img src={icone} alt="bio 1"/>
             <h3>Proteção Patrimonial</h3>
           </div>
-          <p>Equipe de gestores altamente capacitada acompanhando de perto cada real investido.</p>
+          <p>Será cobrada taxa de performance somente em caso de evoluçãop patrimonial, caso ocorra redução trabalharemos para recompor a carteira vencedora.</p>
         </li>
         <li>
           <div>

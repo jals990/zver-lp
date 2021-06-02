@@ -1,17 +1,17 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 100%;
-  height: 90vh;
-  color:  var(--dark);
-  background: var(--white);
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
+  height: 75vh;
+  width: 100%;
+  margin-bottom: 45px;
 
-  h3{
-    font-size: 3.225em;
-    margin-bottom: 40px;
+  > h3{
+    padding: 15px 50px !important;
+    margin: -100px 0 65px;
   }
 
   .combo {
