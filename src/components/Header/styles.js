@@ -21,6 +21,12 @@ export const Container = styled.div`
       height: 500px;
       margin-top: -150px;
       margin-left: -75px;
+
+      @media (max-width: 476px) {
+        width: 400px;
+        height: 400px;
+        margin-top: -150px;
+      }
     }
 
     h3{

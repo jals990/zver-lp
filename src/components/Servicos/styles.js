@@ -9,8 +9,26 @@ export const Container = styled.div`
   width: 100%;
   background: var(--text-body);
 
+  @media (max-width: 476px) {
+    height: 100%;
+    margin-top: 80px !important;
+    
+    small {
+      margin-top: -40px !important;
+    }
+
+    div ul {
+      flex-direction: column  !important;
+      li {
+        margin: 20px !important;
+      }
+    }
+  }
+
   h3{
     margin-top: -180px;
+
+    
   }
 
   small {

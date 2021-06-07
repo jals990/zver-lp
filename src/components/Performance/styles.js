@@ -14,11 +14,32 @@ export const Container = styled.div`
     margin: -100px 0 65px;
   }
 
+  @media (max-width: 476px) {
+    height: 100%;
+      .combo {
+        flex-direction: column;
+      }
+
+      #gauge{
+        max-width: 400px;
+      }
+
+      .indicadores {
+        width: 90%;
+
+        ul li {
+          flex-direction: column !important;
+        }
+      }
+    }
+
   .combo {
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 100%;
+
+    
   }
 
   .indicadores {

@@ -10,10 +10,25 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   background: var(--white);
-  
+
+  @media (max-width: 476px) {
+    flex-direction: column;
+    margin-top: 80px !important;
+
+    div {
+      width: 90vw !important;
+      padding: 10px !important;
+      border-radius: 17px !important;
+    }
+
+    .market {
+      display: none;
+    }
+  }
+
   div{
     width: 45%;
-    padding: 40px 100px !important;
+    padding: 40px 60px !important;
     margin-left: -10px;
     display: flex;
     flex-direction: column;
@@ -43,6 +58,8 @@ export const Container = styled.div`
       margin: 5px;
     }
 
+
+    
   }
 
   .market{
@@ -62,6 +79,7 @@ export const Container = styled.div`
     width: 600px;
     height: 600px;
     z-index: 3;
+
   }
 
   div:nth-child(2){

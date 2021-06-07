@@ -10,6 +10,20 @@ export const Container = styled.footer`
   justify-content: center;
   color: #d1d1d1;
 
+  @media (max-width: 425px){
+    height: 100%;
+
+    div {
+      flex-direction: column;
+    }
+
+    ul {
+      margin: 0;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
   img{
     width: 500px;
   }

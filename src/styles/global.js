@@ -37,6 +37,10 @@ export const GlobalStyle = createGlobalStyle`
     color: var(--white);
     -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+
+    @media (max-width: 476px) {
+      margin-top: 80px !important;
+    }
   }
   
 `;

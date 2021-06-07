@@ -15,6 +15,22 @@ export const Container = styled.div`
     margin: -160px 0 35px !important;
   }
 
+  @media (max-width: 425px){
+    height: 100%;
+    margin-top: 180px;
+
+    h3{
+      padding: 15px 50px !important;
+      margin: 60px !important;
+      text-align: center;
+    }
+    > div{
+      flex-direction: column !important;
+      margin: 20px 0 !important;
+
+    }
+  }
+
   > div{
     display: flex;
     flex-direction: row;
