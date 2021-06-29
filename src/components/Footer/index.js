@@ -10,11 +10,6 @@ function Footer() {
         <img src={logo} alt="ZVER Capital" />
         <ul>
           <li>
-            <strong>Gil Watanabe</strong>
-            <small>(11)00000-0000</small>
-            <small>gil@zver.capital</small>
-          </li>
-          <li>
             <strong>Montanari</strong>
             <small>(11)00000-0000</small>
             <small>montanari@zver.capital</small>

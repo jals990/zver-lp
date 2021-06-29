@@ -24,16 +24,6 @@ export const Container = styled.div`
       }
     }
   }
-
-  h3{
-    margin-top: -180px;
-
-    
-  }
-
-  small {
-    margin: -180px 0 60px;
-  }
   
   div ul {
     display: flex;

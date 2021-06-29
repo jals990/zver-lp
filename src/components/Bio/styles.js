@@ -31,10 +31,6 @@ export const Container = styled.div`
     }
   }
 
-  > h3{
-    padding: 15px 50px !important;
-    margin: -80px 0 35px !important;
-  }
 
   ul{
     display: flex;

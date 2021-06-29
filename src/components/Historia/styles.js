@@ -1,88 +1,81 @@
 import styled from 'styled-components';
 
 import market from '../../media/multimercado.jpg';
+import consulting from '../../media/japa.jpg';
 
 export const Container = styled.div`
   width: 100%;
   height: 95vh;
-  margin: 20px;
+
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--white);
 
   @media (max-width: 476px) {
-    flex-direction: column;
     margin-top: 80px !important;
 
-    div {
+    div > div{
       width: 90vw !important;
       padding: 10px !important;
       border-radius: 17px !important;
     }
-
-    .market {
-      display: none;
-    }
   }
 
-  div{
-    width: 45%;
-    padding: 40px 60px !important;
-    margin-left: -10px;
+  .intro {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: var(--background);
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
- 
-    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    width: 100%;
+    margin: 20px;
 
-    h4 {
-      text-align: center;
-      font-size: 3em;
-      line-height: 1em;
-      color: var(--white);
-      margin-bottom: 30px;
+    .intro-img{
+      background: url(${consulting});
+      width: 750px;
+      height: 450px;
+      background-size: cover;
+      background-position: center;
     }
 
-    p {
-      line-height: 1.75em;
-      color: var(--white);
+    .icon {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      margin: 100px 0px 0px;
+      padding: 40px 0px 0px 60px;
+      height: 497px;
+
+      h3{
+        font-size: 45px;
+        font-weight: 500;
+        letter-spacing: 0px;
+        text-transform: none;
+        color: #1b1b1b;
+      }
+
+      > div {
+        display: flex;
+        align-items: center;
+
+        svg {
+          color: #e7202d !important;
+          width: 24px;
+          height: 24px;
+          margin: 0 10px;
+        }
+
+        p{
+          color: #1b1b1b;
+          font-size: 19px;
+          font-weight: 500;
+          text-transform: none;
+          letter-spacing: 0px;
+        }
+      }
     }
 
-    hr {
-      margin: 5px;
+    .oportunidade {
+      font-size: 14px;
+      font-weight: 500;
+      font-style: normal;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #d32525;
     }
-
-
-    
-  }
-
-  .market{
-    background: url(${market}) no-repeat center center;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-    -webkit-font-smoothing: antialiased; 
-    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-
-    width: 600px;
-    height: 600px;
-    z-index: 3;
-
-  }
-
-  div:nth-child(2){
-    padding: 45px;
-  }
+  } 
 `;
