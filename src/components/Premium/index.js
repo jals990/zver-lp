@@ -19,7 +19,7 @@ function Premium() {
           <img src="https://www.tororadar.com.br/hs-fs/hubfs/Imagens_oswald/coe-certificado-de-operacoes-estruturadas.jpg?width=800&name=coe-certificado-de-operacoes-estruturadas.jpg" height="340" />
           <Panel header="Operações Estruturadas">
             <p>
-              <small>A Zver atua na busca de ativos em plataformas regionais e geração escalonável, visando retornos atrativos ajustados ao risco. A certeza de um fluxo de caixa de longo prazo protege dos riscos deste tipo de investimento. Além de originação de ativos atrativos, a Zver busca mercados de alto crescimento realizados de formas sustentáveis.</small>
+              <small>A Share Capital atua na busca de ativos em plataformas regionais e geração escalonável, visando retornos atrativos ajustados ao risco. A certeza de um fluxo de caixa de longo prazo protege dos riscos deste tipo de investimento. Além de originação de ativos atrativos, a Share busca mercados de alto crescimento realizados de formas sustentáveis.</small>
             </p>
           </Panel>
         </Panel>
@@ -27,7 +27,7 @@ function Premium() {
           <img src="https://vangardi.com.br/wp-content/uploads/2020/11/private-equity-grafico.jpg" height="340" />
           <Panel header="Private Equity">
             <p>
-              <small>No setor de Private Equity, a Zver se concentra em empresas de alto crescimento do Middle Market nos setores financeiros, automotivo, energia e química, variando por região e natureza do negócio e da nossa posição competitiva.</small>
+              <small>No setor de Private Equity, a Share se concentra em empresas de alto crescimento do Middle Market nos setores financeiros, automotivo, energia e química, variando por região e natureza do negócio e da nossa posição competitiva.</small>
             </p>
           </Panel>
         </Panel>

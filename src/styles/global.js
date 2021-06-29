@@ -31,16 +31,18 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   .divisor {
-    margin-top: -25px;
     padding: 15px 50px 35px;
     background: var(--bkg-body);
     color: var(--white);
     -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-
-    @media (max-width: 476px) {
-      margin-top: 80px !important;
-    }
   }
   
+  /* background-image: url(https://google.com});
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+
 `;

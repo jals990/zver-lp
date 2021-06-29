@@ -9,11 +9,6 @@ export const Container = styled.div`
   width: 100%;
   margin-bottom: 45px;
 
-  > h3{
-    padding: 15px 50px !important;
-    margin: -100px 0 65px;
-  }
-
   @media (max-width: 476px) {
     height: 100%;
       .combo {

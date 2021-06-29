@@ -9,7 +9,7 @@ function Header() {
     <Container>
       <div>
           <img src={logo} alt="background-zver"/>
-          <h3>Investimentos e operações multimercado</h3>
+          <h3>Nós compartilhamos lucros.</h3>
         </div>
         <img src={globe} alt="background-zver"/>
     </Container>
