@@ -21,8 +21,8 @@ export const Container = styled.div`
   }
 
   h4{
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 36px;
+    font-weight: 900;
     letter-spacing: 0px;
     text-transform: none;
     color: #1b1b1b;

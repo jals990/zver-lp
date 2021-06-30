@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import globe from '../../media/globe.jpg';
+import globe from '../../media/globe.jpeg';
 
 export const Container = styled.div`
   display: flex;
