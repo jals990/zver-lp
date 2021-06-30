@@ -1,11 +1,22 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import * as htmlToImage from 'html-to-image';
+import download from 'downloadjs';
 
 import atuacao from '../../media/atuacao.jpg';
 import { Container } from './styles';
 
 function Servicos() {
+  const ref = useRef();
+
+  function print(){
+    htmlToImage.toPng(ref.current)
+    .then(function (dataUrl) {
+      download(dataUrl, 'comprovante.png');
+    }); 
+  }
+
   return (
-    <Container id="atuacao">
+    <Container id="atuacao" ref={ref}>
       <img src={atuacao} alt="atuacao" />
       <div>
         <h3>Onde atuamos</h3>
@@ -25,6 +36,11 @@ function Servicos() {
           <li>
             <h4>Opções</h4>
             <p>Captação de recursos, etc.</p>
+            <a download>
+              <button onClick={() => print()}>
+                Clique aqui
+              </button>
+            </a>
           </li>
         </ul>
       </div>
