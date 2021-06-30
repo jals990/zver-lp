@@ -16,8 +16,8 @@ function Home() {
       <Navbar />
       <Header />
       <Historia />
-      <Servicos />
       <Bio />
+      <Servicos />
       <Performance />
       <Premium />
       <Footer />    

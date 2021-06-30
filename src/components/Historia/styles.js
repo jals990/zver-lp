@@ -111,7 +111,7 @@ export const Container = styled.div`
             margin-right: 14px;
 
             path { 
-              color: #d32525;
+              color: #d32525 !important;
             }
           }
         }

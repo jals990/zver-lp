@@ -5,7 +5,6 @@ import { Container } from './styles';
 function Bio() {
   return (
     <Container id="trabalho">
-      <h3>Como trabalhamos</h3>
       <ul>
         <li>
           <h3>Acompanhamento Profissional</h3>

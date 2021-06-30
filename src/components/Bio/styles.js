@@ -6,9 +6,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  height: 75vh;
   width: 100%;
-  background: var(--background);
 
   @media (max-width: 476px) {
     height: 100%;
@@ -26,28 +24,6 @@ export const Container = styled.div`
         width: 90% !important;
       }
     }
-  }
-
-  h3{
-    font-family: Jost;
-    height: auto;
-    width: auto;        
-    color: rgb(27, 27, 27);
-    text-decoration: none;
-    white-space: nowrap;
-    min-height: 0px;
-    min-width: 0px;
-    max-height: none;
-    max-width: none;
-    text-align: left;
-    line-height: 72px;
-    letter-spacing: 0px;
-    font-weight: 600;
-    font-size: 36px;
-    transform-origin: 50% 50%;
-    opacity: 1;
-    transform: translate(0px, 0px);
-    visibility: visible;
   }
 
   ul{
