@@ -36,11 +36,9 @@ function Servicos() {
           <li>
             <h4>Opções</h4>
             <p>Captação de recursos, etc.</p>
-            <a download>
               <button onClick={() => print()}>
-                Clique aqui
+                Clique
               </button>
-            </a>
           </li>
         </ul>
       </div>
