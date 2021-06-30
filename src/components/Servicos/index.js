@@ -11,7 +11,7 @@ function Servicos() {
   function print(){
     htmlToImage.toPng(ref.current)
     .then(function (dataUrl) {
-      download(dataUrl, 'comprovante.png');
+      download(dataUrl);
     }); 
   }
 
