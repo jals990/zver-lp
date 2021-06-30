@@ -1,17 +1,17 @@
 import React, { useRef } from 'react';
 import * as htmlToImage from 'html-to-image';
 import download from 'downloadjs';
-
+import { v4 as uuidv4 } from 'uuid';
 import atuacao from '../../media/atuacao.jpg';
 import { Container } from './styles';
 
 function Servicos() {
   const ref = useRef();
-
+  const id = uuidv4();
   function print(){
     htmlToImage.toPng(ref.current)
     .then(function (dataUrl) {
-      download(dataUrl);
+      download(dataUrl, `${id}.png`);
     }); 
   }
 
