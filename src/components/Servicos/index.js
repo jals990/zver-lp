@@ -8,10 +8,11 @@ import { Container } from './styles';
 function Servicos() {
   const ref = useRef();
   const id = uuidv4();
+  
   function print(){
     htmlToImage.toJpeg(ref.current)
     .then(function (dataUrl) {
-      download(dataUrl, `${id}.jpeg`);
+      download(dataUrl, `${id}.jpg`);
     }); 
   }
 
@@ -36,9 +37,9 @@ function Servicos() {
           <li>
             <h4>Opções</h4>
             <p>Captação de recursos, etc.</p>
-            <a download>
-              <button onClick={() => print()}>
-                Clique last
+            <a href={atuacao} download>
+              <button >
+                Clique atuacao
               </button>
             </a>
           </li>
