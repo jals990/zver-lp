@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import atuacao from '../../media/atuacao.jpeg';
+import atuacao from '../../media/atuacao.jpg';
 
 export const Container = styled.div`
   display: flex;

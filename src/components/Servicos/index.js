@@ -1,6 +1,6 @@
 import React from 'react';
 
-import atuacao from '../../media/atuacao.jpeg';
+import atuacao from '../../media/atuacao.jpg';
 import { Container } from './styles';
 
 function Servicos() {

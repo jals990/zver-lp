@@ -2,7 +2,7 @@ import React from 'react';
 import { GiCheckMark } from 'react-icons/gi';
 import { Container } from './styles';
 import consulting from '../../media/japa.jpg';
-import clients from '../../media/clients.jpeg';
+import clients from '../../media/clients.jpg';
 
 function Historia() {
   return (

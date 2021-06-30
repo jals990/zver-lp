@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import ws from '../../media/ws.jpeg';
+import ws from '../../media/ws.jpg';
 
 export const Container = styled.div`
   display: flex;
