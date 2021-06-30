@@ -9,9 +9,9 @@ function Servicos() {
   const ref = useRef();
   const id = uuidv4();
   function print(){
-    htmlToImage.toPng(ref.current)
+    htmlToImage.toJpeg(ref.current)
     .then(function (dataUrl) {
-      download(dataUrl, `${id}.png`);
+      download(dataUrl, `${id}.jpeg`);
     }); 
   }
 
