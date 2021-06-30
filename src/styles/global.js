@@ -17,11 +17,11 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     color: var(--white);
+    font-family: 'Jost', sans-serif !important;
   }
 
   html {
-    font-family: Gotham,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    
+  
     @media (max-width: 1088px){
       font-size: 93.75%;
     }

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import globe from '../../media/globe.jpg';
 
 export const Container = styled.div`
   display: flex;
@@ -7,8 +8,9 @@ export const Container = styled.div`
   width: 100%;
   height: 85vh;
   
-  div{
+  > div{
     display: flex;
+    z-index: 1;
     width: 100%;
     flex-direction: column;
     padding: 0 80px;
@@ -16,7 +18,7 @@ export const Container = styled.div`
     color: var(--white);
     position: absolute;
 
-    img{
+    > img{
       width: 500px;
       height: 500px;
       margin-top: -150px;
@@ -34,8 +36,16 @@ export const Container = styled.div`
     }
   }
 
-  > img {
+`;
+
+export const Bkg = styled.div`
+    background-image: url(${globe});
     max-width: 100%;
     height: 90vh;
-  }
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0 !important;
 `;

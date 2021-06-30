@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import ws from '../../media/ws.jpeg';
 
 export const Container = styled.div`
   display: flex;
@@ -15,10 +16,6 @@ export const Container = styled.div`
     .divisor {
       margin-top: 80px !important;
     }
-    
-    small {
-      margin-top: -40px !important;
-    }
 
     ul {
       flex-direction: column  !important;
@@ -31,36 +28,58 @@ export const Container = styled.div`
     }
   }
 
+  h3{
+    font-family: Jost;
+    height: auto;
+    width: auto;        
+    color: rgb(27, 27, 27);
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    line-height: 72px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: 36px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+  }
 
   ul{
     display: flex;
+    align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 60px 0 100px;
+
 
     li {
       list-style: none;
-      width: 30%;
-      height: 100%;
-      margin: 5px;
-      padding: 20px 70px;
+      width: 33.33%;
+      height: 340px;
+      padding: 40px 70px;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      border-radius: 20px;
+      background-image: url(${ws});
+      background-size: cover;
+      background-position: center;
 
-      text-align: center;
-
-      div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+      h3 {
         margin-bottom: 30px;
+        border-bottom: 1px solid  #d32525;
+        padding-bottom: 4px;
       }
 
-      img{
-        width: 110px ;
-        height: 110px;
+      p{
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        text-transform: none;
+        color: #e6e6e6;
       }
     }
   }

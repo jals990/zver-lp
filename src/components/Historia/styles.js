@@ -5,9 +5,10 @@ import consulting from '../../media/japa.jpg';
 
 export const Container = styled.div`
   width: 100%;
-  height: 95vh;
-
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
 
   @media (max-width: 476px) {
     margin-top: 80px !important;
@@ -19,63 +20,105 @@ export const Container = styled.div`
     }
   }
 
+  h4{
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: #1b1b1b;
+    margin-bottom: 24px;
+  }
+
+  > span {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #d32525;
+    margin-bottom: 40px;
+  }
+
   .intro {
     display: flex;
     width: 100%;
-    margin: 20px;
+    margin: 35px 0;
 
-    .intro-img{
-      background: url(${consulting});
-      width: 750px;
+    .intro-img img{
       height: 450px;
-      background-size: cover;
-      background-position: center;
     }
 
-    .icon {
+    .client-img img{
+      height: 450px;
+    }
+
+    .intro-escope {
       display: flex;
       flex-direction: column;
-      width: 50%;
-      margin: 100px 0px 0px;
-      padding: 40px 0px 0px 60px;
-      height: 497px;
+      padding: 40px 70px;
+
+      > span {
+        font-size: 14px;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #d32525;
+
+        border-left: 4px solid #d32525;
+        padding-left: 24px;
+        margin-bottom: 24px;
+
+      }
 
       h3{
-        font-size: 45px;
+        font-size: 24px;
         font-weight: 500;
         letter-spacing: 0px;
         text-transform: none;
         color: #1b1b1b;
+        margin-bottom: 24px;
       }
 
-      > div {
-        display: flex;
-        align-items: center;
-
-        svg {
-          color: #e7202d !important;
-          width: 24px;
-          height: 24px;
-          margin: 0 10px;
-        }
-
-        p{
-          color: #1b1b1b;
-          font-size: 19px;
-          font-weight: 500;
-          text-transform: none;
-          letter-spacing: 0px;
-        }
+      p {
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        text-transform: none;
+        color: #6d6a6a;
+        margin-bottom: 24px;
       }
+
+      ul {
+        li {
+          display: flex;
+          align-items: center;
+
+          span{
+            color: #1b1b1b;
+            font-size: 19px;
+            font-weight: 500;
+            text-transform: none;
+            letter-spacing: 0px;
+          }
+
+          svg {
+            width: 19px;
+            height: 19px;
+            padding: 4px;
+            border-radius: 50%;
+            border: 1px solid #d32525;
+            margin-right: 14px;
+
+            path { 
+              color: #d32525;
+            }
+          }
+        }
+
+      }
+      
     }
 
-    .oportunidade {
-      font-size: 14px;
-      font-weight: 500;
-      font-style: normal;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-      color: #d32525;
-    }
   } 
 `;
