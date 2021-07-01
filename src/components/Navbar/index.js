@@ -9,20 +9,19 @@ import icone from '../../media/icone.png';
 
 function Navbar() {
   const ref = useRef();
+  const localFile = localStorage;
 
-  function dataURLtoFile(dataurl, filename) {
-    var arr = dataurl.split(','), mime = arr[0].match(/:(.*?);/)[1],
-        bstr = atob(arr[1]), n = bstr.length, u8arr = new Uint8Array(n);
-    while(n--){
-        u8arr[n] = bstr.charCodeAt(n);
-    }
-    return new File([u8arr], filename, {type:mime});
+  function dataURLtoFile(dataUrl) {
+    localFile.setItem("receipt", dataUrl)
+    const fileLocale = localFile.getItem("receipt")
+    localFile.removeItem("receipt")
+    return fileLocale
   }
 
   function print(){
     htmlToImage.toPng(ref.current)
-    // .then((dataUrl) => dataURLtoFile(dataUrl, 'comprovante.png'))
-    .then((dataUrl) => download(dataUrl)); 
+    .then((dataUrl) => dataURLtoFile(dataUrl))
+    .then(download);
   }
 
 
