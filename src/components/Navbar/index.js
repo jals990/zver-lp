@@ -1,5 +1,5 @@
-import React, { useRef } from 'react';
-import download from 'downloadjs';
+import React, { useEffect, useRef, useState } from 'react';
+import { base64StringToBlob } from 'blob-util';
 import { Dropdown } from 'rsuite';
 import * as htmlToImage from 'html-to-image';
 
@@ -9,26 +9,29 @@ import icone from '../../media/icone.png';
 
 function Navbar() {
   const ref = useRef();
-  const localFile = localStorage;
+  const [randon, setRandon] = useState('');
 
   function dataURLtoFile(dataUrl) {
-    localFile.setItem("receipt", dataUrl)
-    const fileLocale = localFile.getItem("receipt")
-    // localFile.removgiteItem("receipt")
-    return fileLocale
+    setRandon(base64StringToBlob(dataUrl, 'image/png'));
   }
 
   function print(){
     htmlToImage.toPng(ref.current)
-    .then((dataUrl) => dataURLtoFile(dataUrl))
-    .then(download);
+    .then((dataUrl) => dataURLtoFile(dataUrl));
   }
 
+  useEffect(() =>{
+    var a = document.getElementById("rnd-print");
+    if(a){
+      a.click();
+    }
+  },[randon])
 
   return (
     <Container>
       <img src={icone} alt="Share Capital" ref={ref}/>
-      <button type="button" onClick={() => print()}>clique</button>
+      {randon ? <a href={randon} download id="rnd-print"> </a> : null}
+      <button type="button" onClick={() => print()}>test logo</button>
       <Dropdown title="Menu">
         <a href="#historia"><Dropdown.Item>Quem Somos</Dropdown.Item></a>
         <a href="#atuacao"><Dropdown.Item>Onde atuamos</Dropdown.Item></a>
