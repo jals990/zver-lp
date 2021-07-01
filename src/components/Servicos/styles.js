@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import atuacao from '../../media/atuacao.jpg';
 
 export const Container = styled.div`
   display: flex;
@@ -45,10 +44,11 @@ export const Container = styled.div`
     li {
       display: flex;
       flex-direction: column;
+      margin-bottom: 32px;
 
       h4{
         font-size: 14px;
-        font-weight: 800;
+        font-weight: 900;
         font-style: normal;
         letter-spacing: 3px;
         text-transform: uppercase;
@@ -58,10 +58,13 @@ export const Container = styled.div`
       p{
         color: #1b1b1b;
         font-size: 19px;
-        font-weight: 600;
+        font-weight: 200;
         text-transform: none;
         letter-spacing: 0px;
-        margin-bottom: 40px;
+
+        span {
+          color: #d32525;
+        }
       }
     }
 

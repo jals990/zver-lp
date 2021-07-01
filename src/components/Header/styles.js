@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import globe from '../../media/globe.jpg';
+import globe from '../../media/_globe.jpg';
 
 export const Container = styled.div`
   display: flex;
@@ -19,10 +19,10 @@ export const Container = styled.div`
     position: absolute;
 
     > img{
-      width: 500px;
-      height: 500px;
+      width: 150px;
+      height: 150px;
       margin-top: -150px;
-      margin-left: -75px;
+      margin-left: -5px;
 
       @media (max-width: 476px) {
         width: 400px;
@@ -32,7 +32,7 @@ export const Container = styled.div`
     }
 
     h3{
-      margin-top: -150px
+      margin-top: -10px
     }
   }
 

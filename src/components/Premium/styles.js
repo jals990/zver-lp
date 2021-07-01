@@ -41,6 +41,19 @@ export const Container = styled.div`
     .box-panel{
       margin: 0 20px !important;
 
+      ul{
+        margin-top: 30px;
+        margin-left: 30px;
+        li {
+          font-size: 14px;
+          font-weight: 400;
+          letter-spacing: 0px;
+          text-transform: none;
+          color: #6d6a6a;
+          list-style: disc;
+        }
+      }
+
       .rs-panel-heading{
         width: 80%;
         font-size: 18px;

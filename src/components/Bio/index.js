@@ -8,11 +8,11 @@ function Bio() {
       <ul>
         <li>
           <h3>Acompanhamento Profissional</h3>
-          <p>Equipe de gestores altamente capacitada acompanhando de perto cada real investido..</p>
+          <p>Equipe de consultores altamente capacitada acompanhando de perto cada real investido..</p>
         </li>
         <li>
           <h3>Proteção Patrimonial</h3>
-          <p>Será cobrada taxa de performance somente em caso de evolução patrimonial. Caso ocorra redução trabalharemos para recompor a carteira vencedora.</p>
+          <p>Será cobrada taxa de performance somente em caso de evolução patrimonial. Sempre trabalharemos para que sua carteira seja vencedora.</p>
         </li>
         <li>
           <h3>Transparência nas negociações</h3>

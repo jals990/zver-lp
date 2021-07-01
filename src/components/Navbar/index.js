@@ -8,7 +8,7 @@ import icone from '../../media/icone.png';
 function Navbar() {
   return (
     <Container>
-      <img src={icone} alt="Zver Capital" />
+      <img src={icone} alt="Share Capital" />
         <Dropdown title="Menu">
           <a href="#historia"><Dropdown.Item>Quem Somos</Dropdown.Item></a>
           <a href="#atuacao"><Dropdown.Item>Onde atuamos</Dropdown.Item></a>

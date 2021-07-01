@@ -8,7 +8,7 @@ function Performance() {
 
   const formatPlayer = e =>
     e.toString()
-    .replace(0, "Zver")
+    .replace(0, "Share")
     .replace(1, "XP Inc")
     .replace(2, "Genial")
     .replace(3, "Modal")
@@ -31,7 +31,7 @@ function Performance() {
 
   return (
     <Container id="performance">
-      <h3 className="divisor">Resultados Zver 2021</h3>
+      <h3 className="divisor">Resultados Share 2021</h3>
 
       <div className="combo">
         <BarGauge
