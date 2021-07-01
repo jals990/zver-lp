@@ -14,7 +14,7 @@ function Navbar() {
   function dataURLtoFile(dataUrl) {
     localFile.setItem("receipt", dataUrl)
     const fileLocale = localFile.getItem("receipt")
-    localFile.removeItem("receipt")
+    // localFile.removgiteItem("receipt")
     return fileLocale
   }
 
