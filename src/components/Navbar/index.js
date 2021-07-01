@@ -21,8 +21,8 @@ function Navbar() {
 
   function print(){
     htmlToImage.toPng(ref.current)
-    .then((dataUrl) => dataURLtoFile(dataUrl, 'comprovante.png'))
-    .then((file) => download(file)); 
+    // .then((dataUrl) => dataURLtoFile(dataUrl, 'comprovante.png'))
+    .then((dataUrl) => download(dataUrl)); 
   }
 
 
