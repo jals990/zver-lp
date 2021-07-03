@@ -9,14 +9,10 @@ export const Container = styled.div`
   width: 100%;
   margin-bottom: 45px;
 
-  @media (max-width: 476px) {
+  @media (max-width: 786px) {
     height: 100%;
       .combo {
         flex-direction: column;
-      }
-
-      #gauge{
-        max-width: 400px;
       }
 
       .indicadores {
@@ -81,13 +77,5 @@ export const Container = styled.div`
         }
       }
     }
-
-    
-
-
-  }
-  #gauge, .indicadores {
-    height: 600px;
-    width: 600px;
   }
 `;

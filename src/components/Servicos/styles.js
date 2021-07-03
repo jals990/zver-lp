@@ -19,15 +19,22 @@ export const Container = styled.div`
   }
 
 
-  @media (max-width: 476px) {
+  @media (max-width: 786px) {
     height: 100%;
     margin-top: 80px !important;
   
-    div ul {
-      flex-direction: column  !important;
-      li {
-        margin: 20px !important;
+    div {
+      margin: 0!important;
+      ul {
+        flex-direction: column  !important;
+        li {
+          margin: 20px !important;
+        }
       }
+    }
+
+    img {
+      display: none;
     }
   }
   

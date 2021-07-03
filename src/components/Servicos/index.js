@@ -16,7 +16,6 @@ function Servicos() {
           </li>
           <li>
             <h4>Ações e Opções</h4>
-            <p>Captação de recursos, etc.</p>
           </li>
           <li>
             <h4>Mercados Internacionais</h4>

@@ -10,42 +10,32 @@ export const Container = styled.footer`
   justify-content: center;
   color: #d1d1d1;
 
-  @media (max-width: 425px){
+  @media (max-width: 786px){
     height: 100%;
+    padding: 20px;
 
-    div {
-      flex-direction: column;
+    img {
+      margin-top: 20px;
     }
-
-    ul {
-      margin: 0;
-      align-items: center;
-      justify-content: center;
+    strong{
+      text-align: center;
+      padding: 40px 0;
+      margin-bottom: 0px !important;
     }
   }
 
   img{
-    width: 500px;
+    width: 150px;
   }
-  
+
   div {
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-  }
-
-  ul {
-    width: 400px;
-    margin-left: 50px;
-    
-    li {
-      list-style: none;
-      margin-bottom: 12px;
-
-      strong {
-        display: flex;
-      }
-    }
   }
   
+  strong{
+    position: relative;
+    margin-bottom: 17px;
+  }
 `;

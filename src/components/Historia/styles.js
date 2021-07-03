@@ -1,8 +1,5 @@
 import styled from 'styled-components';
 
-import market from '../../media/multimercado.jpg';
-import consulting from '../../media/japa.jpg';
-
 export const Container = styled.div`
   width: 100%;
   display: flex;
@@ -10,13 +7,29 @@ export const Container = styled.div`
   align-items: center;
   margin-top: 70px;
 
-  @media (max-width: 476px) {
+  @media (max-width: 768px) {
     margin-top: 80px !important;
 
     div > div{
       width: 90vw !important;
       padding: 10px !important;
       border-radius: 17px !important;
+    }
+
+    .intro-img, .client-img{
+      display: none;
+    }
+
+    > h4{
+      font-size: 24px !important;
+      text-align: center;
+      padding: 20px;
+    }
+
+    > span{
+      font-size: 18px !important;
+      text-align: center;
+      padding: 20px;
     }
   }
 

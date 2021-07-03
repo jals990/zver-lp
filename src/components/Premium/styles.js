@@ -18,13 +18,13 @@ export const Container = styled.div`
   }
 
 
-  @media (max-width: 425px){
+  @media (max-width: 786px){
     height: 100%;
-    margin-top: 180px;
+    margin-top: 20px;
 
     h3{
-      padding: 15px 50px !important;
-      margin: 60px !important;
+      padding: 0 !important;
+      margin: 0 !important;
       text-align: center;
     }
     > div{
@@ -39,7 +39,7 @@ export const Container = styled.div`
     flex-direction: row;
 
     .box-panel{
-      margin: 0 20px !important;
+      margin: 20px !important;
 
       ul{
         margin-top: 30px;

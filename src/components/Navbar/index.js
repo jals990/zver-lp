@@ -30,8 +30,6 @@ function Navbar() {
   return (
     <Container>
       <img src={icone} alt="Share Capital" ref={ref}/>
-      {randon ? <a href={randon} download id="rnd-print"> </a> : null}
-      <button type="button" onClick={() => print()}>test logo</button>
       <Dropdown title="Menu">
         <a href="#historia"><Dropdown.Item>Quem Somos</Dropdown.Item></a>
         <a href="#atuacao"><Dropdown.Item>Onde atuamos</Dropdown.Item></a>

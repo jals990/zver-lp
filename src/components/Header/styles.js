@@ -23,16 +23,25 @@ export const Container = styled.div`
       height: 150px;
       margin-top: -150px;
       margin-left: -5px;
-
-      @media (max-width: 476px) {
-        width: 400px;
-        height: 400px;
-        margin-top: -150px;
-      }
     }
 
     h3{
       margin-top: -10px
+    }
+  }
+
+  @media (max-width: 768px) {
+    img {
+      margin-top: 0px !important;
+    }
+
+    > div {
+      padding: 30px;
+    }
+
+    h3{
+      margin-top: 24px !important;
+      font-size: 24px;
     }
   }
 
@@ -48,4 +57,8 @@ export const Bkg = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0 !important;
+
+    @media (max-width: 768px) {
+      background-attachment: initial;
+    }
 `;

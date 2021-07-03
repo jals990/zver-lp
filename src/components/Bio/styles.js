@@ -8,20 +8,18 @@ export const Container = styled.div`
   justify-content: space-evenly;
   width: 100%;
 
-  @media (max-width: 476px) {
+  @media (max-width: 876px) {
     height: 100%;
 
-    .divisor {
-      margin-top: 80px !important;
-    }
 
     ul {
       flex-direction: column  !important;
-      padding: 20px !important;
+      padding: 7px !important;
 
       li {
         margin: 20px !important;
         width: 90% !important;
+        padding: 40px 35px !important;
       }
     }
   }

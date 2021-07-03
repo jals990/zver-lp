@@ -9,7 +9,7 @@ function Premium() {
       <div>
         <Panel shaded bordered bodyFill className="box-panel">
           <img src="https://vangardi.com.br/wp-content/uploads/2020/11/private-equity-grafico.jpg" height="340" />
-          <Panel header="Consultoria de Portfólio">
+          <Panel header="Consultoria de Gerenciamento de Portfólio">
             <p>
               <small>Procuramos nos diferenciar com uma grande combinação de escala, experiência operacional e profundidade no setor financeiro, proporcionando uma vantagem competitiva.</small>
             </p>
@@ -25,12 +25,12 @@ function Premium() {
         </Panel>
         <Panel shaded bordered bodyFill className="box-panel">
           <img src="https://www.nomus.com.br/blog-industrial/wp-content/uploads/2019/08/gestao-de-portfolio-de-produtos.jpg" height="340" />
-          <Panel header="Outros Serviços">
+          <Panel header="Serviços Plus">
               <small>Outros serviços com parceiros estratégicos bem conceituados no mercado: </small>
               <ul>
                 <li>Serviços tributários PJ</li>
-                <li>Câmbio turismo via fear corretora</li>
-                <li>Seguros VIP (carros importados, imóveis acima 1mi)</li>
+                <li>Câmbio turismo</li>
+                <li>Seguros VIP</li>
               </ul>
           </Panel>
         </Panel>
