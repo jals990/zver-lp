@@ -1,35 +1,12 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { base64StringToBlob } from 'blob-util';
+import React from 'react';
 import { Dropdown } from 'rsuite';
-import * as htmlToImage from 'html-to-image';
-
 import { Container } from './styles';
-
 import icone from '../../media/icone.png';
 
 function Navbar() {
-  const ref = useRef();
-  const [randon, setRandon] = useState('');
-
-  function dataURLtoFile(dataUrl) {
-    setRandon(base64StringToBlob(dataUrl, 'image/png'));
-  }
-
-  function print(){
-    htmlToImage.toPng(ref.current)
-    .then((dataUrl) => dataURLtoFile(dataUrl));
-  }
-
-  useEffect(() =>{
-    var a = document.getElementById("rnd-print");
-    if(a){
-      a.click();
-    }
-  },[randon])
-
   return (
     <Container>
-      <img src={icone} alt="Share Capital" ref={ref}/>
+      <img src={icone} alt="Share Capital"/>
       <Dropdown title="Menu">
         <a href="#historia"><Dropdown.Item>Quem Somos</Dropdown.Item></a>
         <a href="#atuacao"><Dropdown.Item>Onde atuamos</Dropdown.Item></a>
