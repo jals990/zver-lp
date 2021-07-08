@@ -25,7 +25,7 @@ export const Container = styled.footer`
   }
 
   img{
-    width: 150px;
+    width: 350px;
   }
 
   div {
