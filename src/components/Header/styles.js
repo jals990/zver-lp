@@ -19,10 +19,10 @@ export const Container = styled.div`
     position: absolute;
 
     > img{
-      width: 150px;
-      height: 150px;
+      width: 350px;
+      height: 200px;
       margin-top: -150px;
-      margin-left: -5px;
+      margin-left: -45px;
     }
 
     h3{

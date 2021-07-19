@@ -49,7 +49,7 @@ function Historia() {
                 obter rentabilidades mais atrativas do que as oferecidas no mercado atual, maximizando resultados e minimizando riscos, sempre com a principal meta 
                 de preservar o patrimônio investido.
                 As rentabilidades oferecidas pelos grandes Bancos não estão sendo atrativas para clientes com perfil mais arrojado, o que engessa o seu patrimônio. 
-                Nós, da SHARE queremos potencializar seu patrimônio de uma maneira mais ágil e significativa. O conhecimento em diversos setores da economia capacita 
+                Nós, da SHARE Capital queremos potencializar seu patrimônio de uma maneira mais ágil e significativa. O conhecimento em diversos setores da economia capacita 
                 a Share Capital a proporcionar retornos competitivos e consistentes de forma responsável.
               </p>
             </div>

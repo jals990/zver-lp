@@ -18,6 +18,7 @@ function Home() {
       <Historia />
       <Bio />
       <Servicos />
+      {/* <Performance /> */}
       <Premium />
       <Footer />    
     </Container>

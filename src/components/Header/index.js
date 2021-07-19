@@ -1,6 +1,6 @@
 import React from 'react';
 
-import logo from '../../media/icone.png';
+import logo from '../../media/logo.png';
 import { Bkg, Container } from './styles';
 
 function Header() {
