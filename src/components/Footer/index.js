@@ -10,6 +10,7 @@ function Footer() {
         <img src={logo} alt="Share Capital" />
       </div>
       <strong>Rua Vergueiro, 1421, Cj 413 Torre Sul. Paraíso. São Paulo-SP. 04101-000.</strong>
+      <strong>share.capital001@gmail.com</strong>
     </Container>
   )
 }
