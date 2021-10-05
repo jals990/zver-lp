@@ -6,7 +6,7 @@ import Header from './../../components/Header';
 import Bio from './../../components/Bio';
 import Servicos from './../../components/Servicos';
 import Historia from './../../components/Historia';
-import Performance from './../../components/Performance';
+import Modal from './../../components/Modal';
 import Premium from './../../components/Premium';
 import Footer from './../../components/Footer';
 
@@ -18,7 +18,7 @@ function Home() {
       <Historia />
       <Bio />
       <Servicos />
-      {/* <Performance /> */}
+      {/* <Modal /> */}
       <Premium />
       <Footer />    
     </Container>
